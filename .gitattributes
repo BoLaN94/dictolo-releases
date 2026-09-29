@@ -1,0 +1,6 @@
+# Fajlovi izdanja se prenose BAJT U BAJT. Updater provjerava sha256 svakog fajla
+# iz manifest.json, a manifest se racuna nad dist/Dictolo/ na ovoj masini. Ako git
+# usput pretvori CRLF u LF (core.autocrlf=true na Windowsu), raw.githubusercontent
+# posluzi drugacije bajtove i provjera padne — sto se i dogodilo s
+# _internal/gui/fonts/OFL-SpaceGrotesk.txt u 0.5.9.
+* -text
