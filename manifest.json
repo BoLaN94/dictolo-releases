@@ -1,200 +1,200 @@
 {
-  "latest_version": "0.5.9",
+  "latest_version": "0.5.10",
   "release_date": "2026-09-29",
-  "changelog": "- Rezim \"auto\" (automatski izbor jezika) stvarno detektuje jezik. Ranije je detekcija\n  tiho pucala pri svakom diktatu i uvijek se vracala na hrvatski, pa je diktat na\n  engleskom ili njemackom uz \"auto\" izlazio kao hrvatski.\n- Ostalo iz 0.5.8: dnevnik vise ne zapisuje tekst diktata, rotira se na 2 MB, a\n  zateceni dnevnik s ranije verzije se brise pri prvom pokretanju.\n",
+  "changelog": "- Program preporuka: kartica \"Osvoji besplatan mjesec\" zamijenjena je stvarnim\n  programom. U tabu Racun sada stoji tvoj licni link, broj pozvanih, koliko ih je\n  instaliralo i koliko se pretplatilo, i dokle je do sljedece nagrade.\n- Nagrade: 10 pretplata je godina Dictola besplatno, 100 je poklon bon 200 EUR,\n  1000 je poklon bon 1000 EUR. Broji se placena pretplata, ne instalacija.\n- Program je zasad ukljucen samo pozvanim testerima; ostalim racunima kartica\n  objasni gdje stvar stoji umjesto da prikazuje prazne brojke.\n- Verzija se sada upisuje u dnevnik pri svakom pokretanju, pa se iz dictolo.log\n  vidi koja verzija ga je pisala.\n",
   "requires_full_installer": false,
   "files": [
     {
       "path": "Dictolo.exe",
-      "sha256": "491a18fc91fe5d5d43eb5443d06b18acfbaa702ea54eb4e544b4d4f2be12e461",
-      "size": 12640992,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/Dictolo.exe"
+      "sha256": "192cd1f42edb116d86e1ed2dfd560f0759f168fd64013c3322e0cd5f6bdc989d",
+      "size": 12648009,
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/Dictolo.exe"
     },
     {
       "path": "_internal/assets/apply_update.ps1",
       "sha256": "15a1970aedcb7c534d93e8c908cc03b74d98c013471818d76d115c440144f1d9",
       "size": 8178,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/assets/apply_update.ps1"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/assets/apply_update.ps1"
     },
     {
       "path": "_internal/assets/dictolo-app-icon-512.png",
       "sha256": "194e3582a328e19f827fbca5da518ff614fc6442efa2692ab40ed7ca4acf9c76",
       "size": 16279,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/assets/dictolo-app-icon-512.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/assets/dictolo-app-icon-512.png"
     },
     {
       "path": "_internal/assets/dictolo-tray-idle.png",
       "sha256": "70f82cde5a340cf539e2ec6255aa2dc770168d528b1d8051e16309cdcba2e72d",
       "size": 2189,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/assets/dictolo-tray-idle.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/assets/dictolo-tray-idle.png"
     },
     {
       "path": "_internal/assets/dictolo-tray-processing.png",
       "sha256": "60baa8075df084f855cdd529704a358618f34eab147a99935cc312db255e3750",
       "size": 2407,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/assets/dictolo-tray-processing.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/assets/dictolo-tray-processing.png"
     },
     {
       "path": "_internal/assets/dictolo-tray-recording.png",
       "sha256": "996a83a15360e3e0f63d6da73a31caa988844b5abc32644071e46b29b6a39317",
       "size": 2385,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/assets/dictolo-tray-recording.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/assets/dictolo-tray-recording.png"
     },
     {
       "path": "_internal/assets/dictolo.ico",
       "sha256": "ee1d9605c73f9e85d2e595f89b727ea14b334cd00eb01a1784680f9c8f7e9838",
       "size": 14497,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/assets/dictolo.ico"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/assets/dictolo.ico"
     },
     {
       "path": "_internal/gui/fonts/Inter-Medium.ttf",
       "sha256": "66de85c88ad792ff58ac9222faebee4b291248bc2e3f17456827a05fdf525e23",
       "size": 342104,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/Inter-Medium.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/Inter-Medium.ttf"
     },
     {
       "path": "_internal/gui/fonts/Inter-Regular.ttf",
       "sha256": "b211b9afd3711a8f84deb51a591d68f7b7b1964770faf3f4d3ad60747c929d69",
       "size": 341452,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/Inter-Regular.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/Inter-Regular.ttf"
     },
     {
       "path": "_internal/gui/fonts/Inter-SemiBold.ttf",
       "sha256": "1255016d9517d9c543127d843f0dcf90bd3be9b2f4c063abb275694f75aefe23",
       "size": 342792,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/Inter-SemiBold.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/Inter-SemiBold.ttf"
     },
     {
       "path": "_internal/gui/fonts/JetBrainsMono-Medium.ttf",
       "sha256": "d16e6dc99672734698d629705f617c79f6eb6040f5113efe3a145204dc988109",
       "size": 270316,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/JetBrainsMono-Medium.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/JetBrainsMono-Medium.ttf"
     },
     {
       "path": "_internal/gui/fonts/JetBrainsMono-Regular.ttf",
       "sha256": "e6fd0d7e91550b3ed2b735d4312474362c4716edc4fc0577a0f61ed782d5aed1",
       "size": 270224,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/JetBrainsMono-Regular.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/JetBrainsMono-Regular.ttf"
     },
     {
       "path": "_internal/gui/fonts/OFL-Inter.txt",
       "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
       "size": 4377,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/OFL-Inter.txt"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/OFL-Inter.txt"
     },
     {
       "path": "_internal/gui/fonts/OFL-JetBrainsMono.txt",
       "sha256": "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697",
       "size": 4399,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/OFL-JetBrainsMono.txt"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/OFL-JetBrainsMono.txt"
     },
     {
       "path": "_internal/gui/fonts/OFL-SpaceGrotesk.txt",
       "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
       "size": 4495,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/OFL-SpaceGrotesk.txt"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/OFL-SpaceGrotesk.txt"
     },
     {
       "path": "_internal/gui/fonts/SpaceGrotesk-Bold.ttf",
       "sha256": "a9d606f94d01ece6ed5b3c1250d63e0ef5074395d489e668241379e77e101188",
       "size": 88328,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/SpaceGrotesk-Bold.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/SpaceGrotesk-Bold.ttf"
     },
     {
       "path": "_internal/gui/fonts/SpaceGrotesk-Medium.ttf",
       "sha256": "977a40d93990eb787989d1746117635aa10e42e65dcb3c6c4965c47aded53ab3",
       "size": 88416,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/SpaceGrotesk-Medium.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/SpaceGrotesk-Medium.ttf"
     },
     {
       "path": "_internal/gui/fonts/SpaceGrotesk-SemiBold.ttf",
       "sha256": "b0e8f993927524fc7835a74c1fd5f5bcb813f540d40dc0147b6ae3e4ef8bcadd",
       "size": 88312,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/fonts/SpaceGrotesk-SemiBold.ttf"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/fonts/SpaceGrotesk-SemiBold.ttf"
     },
     {
       "path": "_internal/gui/icons/empty-state-dictionary.png",
       "sha256": "beb804f723e205c1713b77a0670acd40daba72396db02848f3ec517ff0b48a23",
       "size": 13274,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/empty-state-dictionary.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/empty-state-dictionary.png"
     },
     {
       "path": "_internal/gui/icons/empty-state-home.png",
       "sha256": "abaeb80e8219ae33ca252df5af6cbd3ca4457af829a5c0a930b3ef209fef6bae",
       "size": 12087,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/empty-state-home.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/empty-state-home.png"
     },
     {
       "path": "_internal/gui/icons/icon-chevron-right.png",
       "sha256": "9c47131ff902cd5472f50446cdde175635eec52beff098f84238559ed89b5d68",
       "size": 855,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-chevron-right.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-chevron-right.png"
     },
     {
       "path": "_internal/gui/icons/icon-copy.png",
       "sha256": "5882443b4a01b29a70b93ffb6077fd68539214ee8cf5f0c1470fd18be61f75f4",
       "size": 2001,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-copy.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-copy.png"
     },
     {
       "path": "_internal/gui/icons/icon-delete.png",
       "sha256": "94a86b461c803846f8166374e3eb83f461d8e3650fe90d79a134f204044140eb",
       "size": 2432,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-delete.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-delete.png"
     },
     {
       "path": "_internal/gui/icons/icon-edit.png",
       "sha256": "86fdfd39ad3cf4cecf3b83a49cc10d94ad4cdc1cac74eb17f5623062e6276a7a",
       "size": 1743,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-edit.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-edit.png"
     },
     {
       "path": "_internal/gui/icons/icon-lock-privacy.png",
       "sha256": "e3d18e441c47c98d12c1fd31c5ff2c9e2dd9467f84fd1e14587f8dfe993633d8",
       "size": 2122,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-lock-privacy.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-lock-privacy.png"
     },
     {
       "path": "_internal/gui/icons/icon-nav-account.png",
       "sha256": "0271a65ddc2c9666ce1ee2c05885f73038d9bbf47aaaa9bf1eb518e608eb2d0e",
       "size": 2483,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-nav-account.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-nav-account.png"
     },
     {
       "path": "_internal/gui/icons/icon-nav-dictionary.png",
       "sha256": "70dfdda1a31f72655fbb6f290eea7fd06a26de249b843b449165c09a5ce79cf9",
       "size": 1835,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-nav-dictionary.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-nav-dictionary.png"
     },
     {
       "path": "_internal/gui/icons/icon-nav-home.png",
       "sha256": "ead2afb05268207f2099bc96eddb597a4880d9c827e779e376359ffbf4d400ae",
       "size": 2238,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-nav-home.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-nav-home.png"
     },
     {
       "path": "_internal/gui/icons/icon-nav-settings.png",
       "sha256": "adcaf5d3775237a6d2869267f161edcec3959c9ffc9ef8f68a23e3f117b7f671",
       "size": 1503,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-nav-settings.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-nav-settings.png"
     },
     {
       "path": "_internal/gui/icons/icon-search.png",
       "sha256": "93b48db65fa179330a0aee5a008784e694741c4bf09b81567912e51eebb1fdd8",
       "size": 1786,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-search.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-search.png"
     },
     {
       "path": "_internal/gui/icons/icon-waveform-pro.png",
       "sha256": "0d107f3b2ef3e0954c1a0c7a2ffe6f42a41a180d4dc4efb6720552b01ffeb08b",
       "size": 1523,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/icon-waveform-pro.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/icon-waveform-pro.png"
     },
     {
       "path": "_internal/gui/icons/referral-waveform.png",
       "sha256": "9eb33a6da72041fc31dbfc9c7c03562b62a5eaaed4d78f83bb9bd6ebaa5cb843",
       "size": 3931,
-      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/4d1b7feccaecb2f8c61f7d447a3f043bb227c3bd/0.5.9/_internal/gui/icons/referral-waveform.png"
+      "download_url": "https://raw.githubusercontent.com/BoLaN94/dictolo-releases/0ee6c91f017c159943aab7af8c1c2ed171a845ae/0.5.10/_internal/gui/icons/referral-waveform.png"
     }
   ],
   "internal_dirs": [
@@ -316,6 +316,6 @@
     "winsound.pyd",
     "zlib1.dll"
   ],
-  "full_installer_url": "https://github.com/BoLaN94/dictolo-releases/releases/download/v0.5.9/DictoloSetup-0.5.9.exe",
-  "full_installer_sha256": "92efcf2cda28ccb1a19617aaab171f8a3c2fdb63a4d7a2d41ef27a7ea145ff10"
+  "full_installer_url": "https://github.com/BoLaN94/dictolo-releases/releases/download/v0.5.10/DictoloSetup-0.5.10.exe",
+  "full_installer_sha256": "bcf0288102436293dde85a4705ebb2b570d992450efb7c960789d78b855df85e"
 }
