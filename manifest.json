@@ -1,7 +1,7 @@
 {
   "latest_version": "0.5.8",
   "release_date": "2026-09-29",
-  "changelog": "﻿- Dnevnik rada vise ne zapisuje tekst diktata. Ostaje samo trajanje, broj rijeci i\n  pouzdanost, pa se dictolo.log moze poslati uz prijavu greske bez razmisljanja.\n- Zateceni dnevnik s prethodne verzije se brise pri prvom pokretanju.\n- Dnevnik se rotira na 2 MB i vise ne raste bez granice.\n- Novi kljuc log_dictation_text u config.json vraca pun tekst u dnevnik, za lov na\n  greske u prepisu. Podrazumijevano je iskljucen.\n- Licenca i azuriranja idu na dictolo.com umjesto na privremenu adresu.\n",
+  "changelog": "- Dnevnik rada vise ne zapisuje tekst diktata. Ostaje samo trajanje, broj rijeci i\n  pouzdanost, pa se dictolo.log moze poslati uz prijavu greske bez razmisljanja.\n- Zateceni dnevnik s prethodne verzije se brise pri prvom pokretanju.\n- Dnevnik se rotira na 2 MB i vise ne raste bez granice.\n- Novi kljuc log_dictation_text u config.json vraca pun tekst u dnevnik, za lov na\n  greske u prepisu. Podrazumijevano je iskljucen.\n- Licenca i azuriranja idu na dictolo.com umjesto na privremenu adresu.\n",
   "requires_full_installer": false,
   "files": [
     {
